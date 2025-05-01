@@ -4,21 +4,21 @@
 
 ```json
 {
-	"acme_challenge_cname_target": null,
-	"certificate": {
-		"id": "cert_2wEzqc4g4JKCM4siKb9NiArRhOo",
-		"uri": "https://api.ngrok.com/tls_certificates/cert_2wEzqc4g4JKCM4siKb9NiArRhOo"
-	},
-	"certificate_management_policy": null,
-	"certificate_management_status": null,
-	"cname_target": "2udamkamcl8pjmrff.5hyoqsskv2j2znfr7.local-ngrok-cname.com",
-	"created_at": "2025-04-25T22:55:12Z",
-	"domain": "myapp.mydomain.com",
-	"error_redirect_url": null,
-	"http_endpoint_configuration": null,
-	"https_endpoint_configuration": null,
-	"id": "rd_2wEzqmJi2owi6kBnIhOMVSEELWv",
-	"region": "",
-	"uri": "https://api.ngrok.com/reserved_domains/rd_2wEzqmJi2owi6kBnIhOMVSEELWv"
+  "acme_challenge_cname_target": null,
+  "certificate": {
+    "id": "cert_2wURAMn8shA1fLJ3F7P7tKCOD4E",
+    "uri": "https://api.ngrok.com/tls_certificates/cert_2wURAMn8shA1fLJ3F7P7tKCOD4E"
+  },
+  "certificate_management_policy": null,
+  "certificate_management_status": null,
+  "cname_target": "2udamkamcl8pjmrff.5mdv3rjv4cbfaemwr.local-ngrok-cname.com",
+  "created_at": "2025-05-01T10:07:01Z",
+  "domain": "myapp.mydomain.com",
+  "error_redirect_url": null,
+  "http_endpoint_configuration": null,
+  "https_endpoint_configuration": null,
+  "id": "rd_2wURAYjRK1VJqRs4qPjNqIn2zMi",
+  "region": "",
+  "uri": "https://api.ngrok.com/reserved_domains/rd_2wURAYjRK1VJqRs4qPjNqIn2zMi"
 }
 ```

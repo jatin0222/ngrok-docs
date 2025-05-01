@@ -11312,5 +11312,13 @@
         Vault with ID <code>&lt;ID&gt;</code> not found.
       </td>
     </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_25000" href="/docs/errors/err_ngrok_25000">ERR_NGROK_25000</a>
+      </td>
+      <td class="pre-wrapped">
+        Domain controls with redirect_blocked_signups_to_sso enabled cannot have an empty or null sso account IDs list.
+      </td>
+    </tr>
   </tbody>
 </table>

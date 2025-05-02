@@ -1,20 +1,35 @@
----
-hide_table_of_contents: true
-displayed_sidebar: docs
----
+ Solutions & Comparison
 
-import { InlineCode } from "@ngrok/mantle/inline-code";
-import ErrorDetails from "/src/components/ErrorDetails";
-import { EndpointUrlOrigin } from "/src/components/search-params-endpoint-url";
 
-# ERR_NGROK_3200
+Model	Accuracy	Precision	Recall	F1 Score
+Logistic Regression	81.5%	75.3%	78.2%	76.7%
+SVM (Linear Kernel)	81.0%	74.4%	78.2%	76.2%
+SVM (RBF Kernel)	79.5%	74.0%	73.1%	73.5%
+Random Forest	77.0%	70.0%	71.8%	70.8%
+K-Nearest Neighbors	76.0%	67.9%	73.1%	70.4%
+Decision Tree	75.0%	68.4%	66.7%	67.5%
 
-### Message
+🧠 Insight:
+🔹 Logistic Regression and SVM (Linear) performed the best overall, especially in balanced metrics.
 
-The endpoint <InlineCode><EndpointUrlOrigin fallback="HOSTNAME" /></InlineCode> is offline.
+🔸 Random Forest and KNN were solid but slightly less precise.
 
-<ErrorDetails error="err_ngrok_3200" />
+⚠️ Decision Tree is interpretable but had the lowest performance.
 
-### Further help
 
-If you're having trouble resolving this error, please reach out to [support@ngrok.com](mailto:support@ngrok.com?subject=Help%20with%20ERR_NGROK_3200)
+
+
+
+
+	Actual	Predicted
+521	0	0
+737	0	0
+740	1	1
+660	0	0
+411	1	0
+...	...	...
+408	0	0
+332	1	1
+208	0	0
+613	0	0
+78	0	1
